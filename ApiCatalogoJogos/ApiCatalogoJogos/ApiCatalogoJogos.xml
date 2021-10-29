@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiCatalogoJogos</name>
+    </assembly>
+    <members>
+        <member name="M:ApiCatalogoJogos.Controllers.V1.JogosController.Obter(System.Int32,System.Int32)">
+            <summary>
+            Busca todos os jogos de forma paginada
+            </summary>
+            <param name="pagina"></param>
+            <param name="quantidade"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiCatalogoJogos.Controllers.V1.JogosController.InserirJogo(ApiCatalogoJogos.InputModel.JogoInputModel)">
+            <summary>
+            
+            </summary>
+            <param name="jogoInputModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiCatalogoJogos.Controllers.V1.JogosController.AtualizarJogo(System.Guid,ApiCatalogoJogos.InputModel.JogoInputModel)">
+            <summary>
+            
+            </summary>
+            <param name="idJogo"></param>
+            <param name="jogoInputModel"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
